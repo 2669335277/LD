@@ -1,0 +1,34 @@
+/* =================公共css开始==================*/
+/* main */
+.main{width:100%; padding:70px 0; margin-top:-12%; background:#fff;}
+.main-top{height:60px;}
+.main-top img{height:60px; display:block; margin:auto;}
+.main-down{width:100%; padding:70px 0;}
+.main-down .box{width:93.8%; margin:auto;}
+.main-down .left{float:left; width:46.7%;}
+.main-down .left img{width:100%; display:block;}
+.main-down .right{float:right; width:46.7%; padding-top:25px;}
+.main-down .right h1{font-size:22px; color:#1F63AC; font-weight:normal; line-height:30px;}
+.main-down .right span{font-size:14px; color:#999; line-height:24px; text-transform:uppercase;
+display:block;}
+.main-down .right p{font-size:18px; color:#333; line-height:26px; margin-top:10px;}
+/* =================公共css结束==================*/
+/* =================1280px开始==================*/
+@media screen and (max-width:1280px) {
+	/* main */
+	.main{margin-top:0;}
+}
+/* =================1280px结束==================*/
+/* =================725px开始==================*/
+@media screen and (max-width:725px) {
+	/* main */
+	.main-down .left{float:none; width:100%;}
+	.main-down .right{float:none; width:100%;}
+}
+/* =================725px结束==================*/
+/* =================600px开始==================*/
+@media screen and (max-width:600px) {
+	/* main */
+	.main-top img{width:90%;}
+}
+/* =================600px结束==================*/

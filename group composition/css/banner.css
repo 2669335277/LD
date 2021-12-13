@@ -1,0 +1,18 @@
+/* =================公共css开始==================*/
+/* banner */
+.banner{width:100%; position:relative; margin-top:80px; overflow:hidden;}
+video{display:block; min-height:460px; overflow:hidden;}
+.banner p{width:100%; position:absolute; left:50%; top:0; margin-left:-50%;
+z-index:11;}
+.banner p img{display:block; width:100%;}
+.banner span{background:#fff; position:absolute; bottom:0; display:block;
+height:33.3%; width:100%;}
+/* =================公共css结束==================*/
+/* =================1280px开始==================*/
+@media screen and (max-width:1280px) {
+	/* banner */
+	video{display:none !important;}
+	.banner p{position:initial; margin-left:-15.5% !important;}
+	.banner span{display:none;}
+}
+/* =================1280px结束==================*/

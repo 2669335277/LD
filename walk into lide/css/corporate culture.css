@@ -1,0 +1,60 @@
+/* =================公共css开始==================*/
+/* main */
+.main{width:100%; margin-top:-12%; background:#fff;}
+.main-top{width:100%; height:60px; margin-top:70px; margin-bottom:30px;}
+.main-top img{display:block; margin:auto; height:60px;}
+.main-center{width:93.8%; margin:30px auto 70px; height:360px; overflow:hidden; 
+position:relative;}
+.main-down{width:100%; background:url(../../img/ab03.jpg) top left no-repeat;
+padding:70px 0; overflow:hidden;}
+.main-down .down-img,.main-down .down-tit{width:93.9%; margin:auto;}
+.main-down .down-img{margin-bottom:30px; height:60px;}
+.main-down .down-img img{height:60px; display:block; margin:auto;}
+.control-box,.control-box1{width:96%;height:360px;}
+.control-box ul,.control-box1 ul{list-style:none; position:relative;}
+.control-box ul li,.control-box1 ul li{position:absolute; top:150px; cursor:pointer;}
+.control-box .prev,.control-box1 .prev{left:0;}
+.control-box .next,.control-box1 .next{right:0;}
+.control-box .bigbox,.control-box1 .bigbox1{overflow:hidden; height:360px;
+margin:auto 5.8% auto;}
+.control-box #switcher,.control-box1 #switcher1{height:360px;left:0px;}
+.content_1.content_2,.content_01.content_02{width:100%; float:left;}
+.control-box .box{transition:all .7s ease 0s;width:96%;height:360px;
+position:relative; float:left; overflow:hidden;}
+.control-box1 .box1{transition: all .7s ease 0s; height:360px;
+position:relative; float:left; overflow:hidden;}
+.control-box1 .box1:nth-of-type(1){margin:0 10px;}
+.control-box1 .box1:nth-of-type(2){margin-right:10px;}
+.control-box1 .box1:nth-of-type(4){margin-left:10px;}
+.control-box1 .box1 a{display:block;width:90%;height:360px; position:relative;
+overflow:hidden;}
+.control-box1 .box1 a span{display:block;width:100%; height:40px; line-height:40px;
+font-size:18px; color:#fff; background:url(../../img/mask02.png) repeat;
+position:absolute; bottom:0; left:0; text-align:center;}
+.control-box1 .box1 a img{display:block;width:100%;height:360px; transition:.5s;}
+.control-box1 .box1:hover a img{transform:scale(1.1);}
+.control-box .shadow,.control-box .shatop{width:100%; height:360px; position:absolute;
+top:0;}
+.control-box .shatop {display:none;}
+.control-box .shadow h1,.control-box .shatop h1{width:100%; height:104px; padding:50px 0 0;
+background:url(../../img/yin.png) no-repeat bottom center;}
+.control-box .shadow h1 img,.control-box .shatop h1 img{margin:0 auto; display:block;}
+.control-box .shadow h3,.control-box .shatop h3{height:48px; line-height:48px;
+font-size:22px; padding-top:4px; display:block; text-align:center; font-weight:normal;}
+.control-box .shadow p,.control-box .shatop p{height:104px; line-height:26px;
+font-size:16px; color:#666; width:80%; margin:auto; display:block; text-align:center;}
+.control-box .box:hover{background:#f1f1f1;}
+.control-box .box:hover .shatop{display:block;}
+.control-box .box:hover .shatop h3{color:#1F63AC;}
+/* =================公共css结束==================*/
+/* =================1280px开始==================*/
+@media screen and (max-width:1280px) {
+	/* main */
+	.main{margin-top:0 !important;}
+}
+/* =================1280px结束==================*/
+/* =================520px结束==================*/
+@media screen and (max-width:520px) {
+	.main-top img,.main-down .down-img img{width:90%; margin:auto;}
+}
+/* =================520px结束==================*/

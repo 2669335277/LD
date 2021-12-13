@@ -1,0 +1,48 @@
+/* =================公共css开始==================*/
+/* main */
+.main-top{width:100%; margin-top:-12%; padding:70px 0; background:#fff;}
+.main-top .main-top-img{width:100%; margin-bottom:30px; height:60px;}
+.main-top .main-top-img img{height:60px; display:block; margin:auto;}
+.main-top .main-top-tit{width:75%; margin:30px auto 0;}
+.main-top .main-top-tit p{margin-bottom:10px; font-size:18px; color:#333; line-height:26px;
+text-indent:2em;}
+.main-top .main-top-tit p:nth-of-type(1){text-indent:unset;}
+.main-down{width:100%; padding:70px 0; background:url(../../img/ab03.jpg) no-repeat 
+center; overflow:hidden;}
+.main-down .main-down-img{width:100%; margin-bottom:30px; height:60px;}
+.main-down .main-down-img img{height:60px; display:block; margin:auto;}
+.main-down .main-down-tit{width:93.8%; margin:0 auto; position:relative;}
+.main-down-tit .prev{width:30px; height:30px; position:absolute; left:0; top:50%;}
+.main-down-tit ul{width:93.3%; margin:0 30px;}
+.main-down-tit ul li{width:23.25%; margin:0 0.9%; float:left;
+background:#fff;}
+.main-down-tit .top{width:92.2%; margin:3.9% 3.9% 0; overflow:hidden; display:block;
+height:100%; position:relative;}
+.main-down-tit .top img{width:100%; transform:scale(1); transition:.5s; display:block;}
+.main-down-tit .top:hover img{transform:scale(1.1);}
+.main-down-tit .top a{display:block; position:absolute; left:0; top:0; width:100%; 
+height:100%; background:rgba(0,0,0,.6); opacity:0; text-align:center;}
+.main-down-tit .top a span{width:35%; height:1px; background:#fff; display:block;
+margin:0 auto; transition:all .5s;}
+.main-down-tit .top a span:nth-of-type(1){margin-top:50%;}
+.main-down-tit .top a p{padding:10px 0; font-size:14px; color:#fff;}
+.main-down-tit .top:hover a{opacity:1;}
+.main-down-tit .top:hover a span{width:2%; padding:0 auto;}
+.main-down-tit .down{padding:10px 7.7%; overflow:hidden;}
+.main-down-tit .down h3{font-size:18px; line-height:26px; height:26px; font-weight:normal;}
+.main-down-tit .down p{font-size:14px; line-height:24px; height:24px; 
+font-weight:normal; color:#999; overflow:hidden;}
+.main-down-tit .next{width:30px; height:30px; position:absolute; right:0; top:50%;}
+/* =================公共css结束==================*/
+/* =================1280px开始==================*/
+@media screen and (max-width:1280px) {
+	/* main */
+	.main-top{margin-top:0;}
+}
+/* =================1280px结束==================*/
+/* =================600px开始==================*/
+@media screen and (max-width:600px) {
+	/* main */
+	.main-top img{width:90%;}
+}
+/* =================600px结束==================*/

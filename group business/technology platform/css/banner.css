@@ -1,0 +1,38 @@
+/* =================公共css开始==================*/
+/* banner */
+.banner{width:100%; position:relative; margin-top:80px; overflow:hidden;}
+video{display:block; min-height:460px; overflow:hidden;}
+.banner p{width:100%; position:absolute; left:50%; top:0; margin-left:-50%;
+z-index:11;}
+.banner p img{display:block; width:100%;}
+.banner-nav{width:93.6%; position:absolute; left:50%; bottom:32%; height:50px;
+z-index:13; margin-left:-46.8%;}
+.banner-nav ul{display:flex; width:100.2%; overflow:hidden;}
+.banner-nav ul li{display:block; margin-right:0.17%; width:50%; height:43px; 
+line-height:43px; text-align:center;}
+.banner-nav ul li a{font-size:16px; color:#1F63AC; background:url(../../../img/mask01.png)
+repeat; display:block; width:100%;}
+.banner-nav ul li.at a{background:url(../../../img/mask.png) repeat; color:#fff;}
+.banner span{background:#fff; position:absolute; bottom:0; display:block;
+height:33.3%; width:100%;}
+/* =================公共css结束==================*/
+/* =================1280px开始==================*/
+@media screen and (max-width:1280px) {
+	/* banner */
+	video{display:none !important;}
+	.banner p{position:initial; margin-left:-15.5% !important;}
+	.banner-nav{bottom:0;}
+	.banner-nav ul li{height:50px; line-height:50px;}
+	.banner span{display:none;}
+}
+/* =================1280px结束==================*/
+/* =================520px开始==================*/
+@media screen and (max-width:520px) {
+	/* banner */
+	.banner-nav{left:76%; bottom:0; height:100%; margin-left:0; width:20%;}
+	.banner-nav ul{display:block;}
+	.banner-nav ul li{line-height:16px; height:16px; margin-right:0; margin-bottom:2px;
+	width:100%;}
+	.banner-nav ul li a{font-size:10px;}
+}
+/* =================520px结束==================*/

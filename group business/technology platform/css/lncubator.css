@@ -1,0 +1,28 @@
+/* =================公共css开始==================*/
+/* main */
+.main{width:100%; padding:70px 0; margin-top:-12%; background:#fff;}
+.main .box{width:93.8%; margin:auto;}
+.main .left{float:left; width:51.65%;}
+.main .left .top{background:url(../../../img/about-01.png) no-repeat top left;
+height:100px; padding-left:20px; margin-bottom:30px;}
+.main .left .top h4{font-size:20px; line-height:28px; height:28px; padding-top:10px;
+font-weight:normal;}
+.main .left .top p{font-size:14px; line-height:18px; height:18px; color:#999;}
+.main .left .down{margin:24px 0;}
+.main .left .down p{text-indent:2rem; font-size:18px; line-height:26px;}
+.main .right{float:right; width:45%;}
+.main .right img{width:100%;}
+/* =================公共css结束==================*/
+/* =================1280px开始==================*/
+@media screen and (max-width:1280px) {
+	/* main */
+	.main{margin-top:0;}
+}
+/* =================1280px结束==================*/
+/* =================995px开始==================*/
+@media screen and (max-width:995px) {
+	/* main */
+	.main .left{float:none; width:100%;}
+	.main .right{float:none; width:100%;}
+}
+/* =================995px结束==================*/

@@ -1,0 +1,121 @@
+/* =================公共css开始==================*/
+/* main */
+.main{width:100%; margin-top:0%; background:#f1f1f1; padding:70px 0;}
+.main-top{height:60px; margin-bottom:30px;}
+.main-top img{height:60px; display:block; margin:auto;}
+.main-down{width:93.8%; margin:auto;}
+.main-down .box{width:100%; background:#fff; padding-bottom:50px;}
+.main-down .top1{width:91.6%; padding:0 4.2%; background:#1F63AC; margin:0;}
+.main-down .top1 p{color:#fff; font-size:16px;}
+.main-down .top{width:91%; padding:0 4.2%; background:#fff; display:block;}
+.main-down .top>div{border-bottom:1px solid #cacaca; cursor:pointer;}
+.main-down .top p:nth-of-type(1),.main-down .top1 p:nth-of-type(1){width:13.8%; 
+text-align:left;}
+.main-down .top p,.main-down .top1 p{width:24.9%; text-align:center; float:left; font-size:14px; 
+height:60px !important; line-height:60px;}
+.main-down .top p:nth-of-type(5),.main-down .top1 p:nth-of-type(5){width:10%; 
+text-align:right; cursor:pointer;}
+.main-down .fold{padding:0 4.2%; width:91%; background:#fff; display:none;}
+.main-down .fold ul{width:92%; background:#f1f1f1; padding:18px 4%;
+border-bottom:1px solid #cacaca;}
+.main-down .fold ul li{float:left; width:33.33%; font-size:14px; height:36px; 
+line-height:36px;}
+.main-down .fold ul li span{color:#999;}
+.main-down .fold .center{width:92%; background:#f1f1f1; padding:18px 4%;
+border-bottom:1px solid #cacaca; height:100%;}
+.main-down .fold .center .left,.main-down .fold .center .right{float:left; 
+width:46%; margin:0 2%;}
+.main-down .fold .center .left h1,.main-down .fold .center .right h1{font-size:14px;
+font-weight:normal; height:30px; line-height:30px;}
+.main-down .fold .center .left p,.main-down .fold .center .right p{font-size:14px;
+line-height:30px;}
+.main-down .fold .center .button{display:block; height:40px; line-height:40px;
+background:#1F63AC; width:14%; margin:0 auto; float:none; cursor:pointer;
+clear:both; text-align:center; font-size:16px; color:#fff; border-radius:5px;}
+.main-down .fold .down{width:92%; background:#f1f1f1; padding:30px 4%;
+border-bottom:1px solid #cacaca;}
+.main-down .fold .down p{float:left; width:26%; padding-left:60px; height:50px;
+background:url(../../img/r01.jpg) no-repeat top left;}
+.main-down .fold .down p:nth-of-type(2){background:url(../../img/r02.jpg) no-repeat top left;}
+.main-down .fold .down p:nth-of-type(3){background:url(../../img/r03.jpg) no-repeat top left;}
+.main-down .fold .down p span{display:block; font-size:14px; height:24px; line-height:24px;}
+.main-down .fold .down p b{display:block; font-weight:normal; font-size:16px;
+color:#1F63AC;}
+.m-modal{display:none; width:100%; height:100%; position:fixed; left:0; top:0; z-index:1000;
+background-color:rgba(0,0,0,0.5);}
+.m-modal-dialog {display:flex; flex-flow:column nowrap; padding:20px;
+width:40%; max-width:700px; max-height:500px; margin:100px auto;
+border-radius:10px; background-color:#fff; -webkit-animation:zoom 0.6s; animation:zoom 0.6s;
+resize:both; overflow:auto;}
+.m-top {box-sizing:border-box; display:flex; height:40px; line-height:40px;
+justify-content:space-between;align-items:center; margin:20px; position:relative;}
+.m-top h4{margin:auto; height:40px; line-height:40px; font-size:22px; color:#1F63AC;
+font-weight:normal;}
+.m-modal-close {position: absolute;right: 10px;top:0;display: inline-block;width:20px;
+height:20px;ine-height: 40px;cursor: pointer;-webkit-user-select: none;
+-moz-user-select: none;-ms-user-select: none;user-select: none;}
+.m-modal-close img{display:block; width:100%;}
+.m-middle {padding:10px;}
+.m-middle form{width:100%;}
+.m-middle form p{margin:0 0 20px 60px; height:34px;}
+.m-middle form p label{width:90px; display:inline-block;}
+.m-middle form p input,.m-middle form p select{width:43%; display:inline-block; 
+height:34px; line-height:34px; background:#fff; border:1px solid #999;
+text-indent:10px;}
+.m-middle form p:nth-of-type(3) input{border:none;}
+.m-middle form p:nth-of-type(4) a{font-size:14px; color:#1F63AC; line-height:34px;
+height:34px; display:inline-block;}
+.m-middle form p:nth-of-type(4) a:hover{text-decoration:underline;}
+.m-middle form p:last-child{width:40%; margin:auto;}
+.m-middle form p:last-child input{height:40px; background:#1F63AC; display:block;
+border-radius:5px; text-align:center; line-height:40px; color:#fff; border:none;
+text-indent:unset;}
+/* =================公共css结束==================*/
+/* =================1280px开始==================*/
+@media screen and (max-width:1280px) {
+	/* main */
+	.main{margin-top:0;}
+}
+/* =================1280px结束==================*/
+/* =================1082px开始==================*/
+@media screen and (max-width:1082px) {
+	/* main */
+	.main-down .fold .down p{width:23%;}
+}
+/* =================1082px结束==================*/
+/* =================868px开始==================*/
+@media screen and (max-width:868px) {
+	/* main */
+	.main-down .fold ul li{width:100%; float:none;}
+	.main-down .fold .center .left{width:100%; float:none;}
+	.main-down .fold .center .right{width:100%; float:none; margin-top:10px;}
+	.main-down .fold .center .button{width:40%;}
+	.main-down .fold .down p{width:82%; float:none; margin-bottom:10px;}
+}
+/* =================868px结束==================*/
+/* =================800px开始==================*/
+@media screen and (max-width:800px) {
+	/* main */
+	.main-down .top p:nth-of-type(1),.main-down .top1 p:nth-of-type(1){width:16%;}
+	.main-down .top p,.main-down .top1 p{width:20%;}
+	.main-down .top p:nth-of-type(5),.main-down .top1 p:nth-of-type(5){width:15%;}
+	.m-modal-dialog  {width:80%;}
+	.m-middle form p:last-child{width:140px; margin:auto;}
+}
+/* =================800px结束==================*/
+/* =================600px开始==================*/
+@media screen and (max-width:600px) {
+	/* main */
+	.main-top img{width:90%;}
+}
+/* =================600px结束==================*/
+/* =================534px开始==================*/
+@media screen and (max-width:534px) {
+	/* main */
+	.main-down .top:nth-of-type(1) p,.main-down .top1:nth-of-type(1) p{font-size:12px;}
+	.main-down .top p:nth-of-type(1),.main-down .top1 p:nth-of-type(1){width:25%;}
+	.main-down .top p:nth-of-type(3),.main-down .top1 p:nth-of-type(3){width:8%;}
+	.main-down .top p,.main-down .top1 p{width:20%; font-size:10px;}
+	.main-down .top p:nth-of-type(5),.main-down .top1 p:nth-of-type(5){width:20%;}
+}
+/* =================534px结束==================*/

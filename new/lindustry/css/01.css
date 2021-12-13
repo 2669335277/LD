@@ -1,0 +1,47 @@
+/* =================公共css开始==================*/
+/* main */
+.main{width:100%; padding:70px 0; margin-top:-12%; background:#fff;}
+.main-top{height:60px; margin-bottom:30px;}
+.main-top img{height:60px; display:block; margin:auto;}
+.main-center,.main-down{width:93.8%; margin:auto;}
+.main-center h1{font-size:24px; line-height:50px; text-align:center; 
+font-weight:normal;}
+.main-center .num{border-bottom:1px solid #cacaca; line-height:34px; height:34px; color:#999;}
+.main-center .num p{font-size:14px; float:left;}
+.main-center .num span{font-size:14px; float:right; display:block;}
+.main-center .title{margin:30px auto;}
+.main-center .title h2{font-size:17px; color:rgb(51,51,51); font-weight:normal;
+margin-bottom:26px; line-height:26px;}
+.main-center .title h3{font-size:17px; color:rgb(84, 141, 212); font-weight:normal;
+margin-bottom:26px; line-height:26px; margin-top:26px;}
+.main-center .title h4{font-size:17px; color:rgb(51,51,51); font-weight:normal;
+line-height:26px;}
+.main-center .title p{text-align:center;}
+.main-center .title p img{width:75%;}
+.main-center .title h5{text-align:left;}
+.main-center .title h5 img{width:75%;}
+.main-center .title h6{font-size:17px; color:rgb(51,51,51); font-weight:normal;
+line-height:26px; text-align:right;}
+.main-center .title span{text-align:center; display:block; font-size:17px; 
+color:rgb(51,51,51); font-weight:normal; margin-bottom:26px; line-height:26px;}
+.main-center .title strong{text-align:center; display:block; font-size:17px; 
+color:rgb(51,51,51); margin-bottom:26px; line-height:26px;}
+.main-down .left{float:left;}
+.main-down .left p{font-size:14px; line-height:24px; color:#666;}
+.main-down .left p a{color:#333;}
+.main-down .left p a:hover,.main-down .right a:hover{color:#1F63AC;}
+.main-down .right{float:right;}
+.main-down .right a{font-size:14px; line-height:24px; color:#333;}
+/* =================公共css结束==================*/
+/* =================1280px开始==================*/
+@media screen and (max-width:1280px) {
+	/* main */
+	.main{margin-top:0;}
+}
+/* =================1280px结束==================*/
+/* =================600px开始==================*/
+@media screen and (max-width:600px) {
+	/* main */
+	.main-top img{width:90%;}
+}
+/* =================600px结束==================*/

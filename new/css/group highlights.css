@@ -1,0 +1,114 @@
+/* =================公共css开始==================*/
+/* main */
+.main-top{width:100%; height:600px; margin-top:-12%; background:#fff;}
+.main-top .main-left{background:#eee; width:34.4%; height:537px; float:left;
+padding-top:63px; padding-left:2.7%; overflow:hidden;}
+.main-top .main-left .main-left-top{height:75px; position:relative;}
+.main-top .main-left .main-left-top h1{font-size:24px; color:#1F63AC; height:36px; 
+line-height:36px; font-weight:normal;}
+.main-top .main-left .main-left-top p{font-size:14px; color:#666; height:24px; 
+line-height:24px; text-transform:uppercase;}
+.main-top .main-left .main-left-down{height:462px; position:relative; 
+background:#f1f1f1;}
+.main-top .main-left .main-left-down .swiper-container{width:100%; height:462px; 
+position:relative;}
+.main-top .main-left .main-left-down .swiper-container .swiper-wrapper{width:5544px; 
+overflow:hidden;}
+.main-top .main-left .main-left-down .swiper-container .swiper-slide{float:left; 
+width:100%; height:462px;}
+.main-left-down .swiper-container .swiper-slide a p:nth-of-type(1){display:block; 
+height:260px; overflow:hidden;}
+.main-left-down .swiper-container .swiper-slide a p:nth-of-type(1) img{display:block; 
+width:100%; height:100%;}                                          
+.main-left-down .swiper-container .swiper-slide a span{display:block; width:87%; 
+height:46px;line-height:46px; font-size:18px; font-weight:bold; padding-top:5px; 
+margin:0 auto; border-bottom:1px solid #cacaca; color:#333; overflow:hidden;}
+.main-left-down .swiper-container:hover .swiper-slide a span{color:#1F63AC;}
+.main-left-down .swiper-container .swiper-slide a p:nth-of-type(2){width:87%; 
+height:96px; line-height:24px; font-size:14px; margin:15px auto; color:#333; 
+overflow:hidden;}
+.main-top .main-right{background:#fff; width:62.9%; height:564px; float:right;
+padding:18px 0;}
+.main-top .main-right ul{display:block; height:564px;}
+.main-top .main-right ul li{padding:30px 0 30px 6.3%;}
+.main-top .main-right ul li p:nth-of-type(1){padding-left:30px; height:20px; width:85%;
+background:url(../../img/news-01.jpg) no-repeat left top;}
+.main-top .main-right ul li:hover{background:#1F63AC;}
+.main-top .main-right ul li:hover p:nth-of-type(1){background:url(../../img/newsh-01.jpg) 
+no-repeat left top;}
+.main-top .main-right ul li p:nth-of-type(1) a,.main-top .main-right ul li p:nth-of-type(1){
+font-size:18px; font-weight:bold; line-height:20px; color:#333; display:block; 
+height:20px;}
+.main-top .main-right ul li p:nth-of-type(1) a{overflow:hidden; float:left; width:61.7%;}
+.main-top .main-right ul li p:nth-of-type(1) span{float:right; display:block;}
+.main-top .main-right ul li p:nth-of-type(2){width:88%; font-size:14px; 
+line-height:24px;  padding-top:15px; height:48px; overflow:hidden; color:#333;}
+.main-top .main-right ul li:hover p:nth-of-type(1) a,.main-top .main-right ul li:hover 
+p:nth-of-type(1){color:#fff;}
+.main-top .main-right ul li:hover p:nth-of-type(2){color:#fff;}
+.main-down{margin:70px auto; width:93.8%;}
+.main-down-img{height:60px;}
+.main-down-img img{height:60px; display:block; margin:auto;}
+.main-down ul li{float:left; width:46%; margin:30px 40px 0 0;}
+.main-down-left{float:left; width:16.3%; height:100px; padding-right:10px;
+text-align:right; background:#1F63AC;}
+.main-down-left p{font-size:26px; color:#fff; line-height:30px; height:30px;
+padding-top:19px;}
+.main-down-left span{font-size:16px; color:#fff; line-height:42px; height:42px;
+display:block;}
+.main-down-right{float:right; padding:20px 5.3%; width:71%; background:#f7f7f7;
+height:120px;}
+.main-down-right p{font-size:14px; color:#666; line-height:24px; height:72px;
+overflow:hidden;}
+.main-down-right a{font-size:18px; color:#333; line-height:34px; height:34px;
+display:block; font-weight:bold; overflow:hidden;}
+.main-down-right a:hover{color:#1F63AC;}
+/* =================公共css结束==================*/
+/* =================1280px开始==================*/
+@media screen and (max-width:1280px) {
+	/* main */
+	.main-top{margin-top:0;}
+}
+/* =================1280px结束==================*/
+/* =================1100px开始==================*/
+@media screen and (max-width:1100px) {
+	/* main */
+	.main-down li{float:none !important; width:100% !important;}
+	.main-down-left{width:30%;}
+	.main-down-right{width:58.4%;}
+}
+/* =================1100px结束==================*/
+/* =================1060px开始==================*/
+@media screen and (max-width:1060px) {
+	/* main */
+	.main-down-left{width:30%;}
+	.main-down-right{width:58%;}
+}
+/* =================1060px结束==================*/
+/* =================890px开始==================*/
+@media screen and (max-width:890px) {
+	.main-top{height:1200px; width:100%;}
+	.main-top .main-left{width:80%; float:none; padding:63px 10% 0;}
+	.main-top .main-right{width:100%; float:none;}
+}
+/* =================890px结束==================*/
+/* =================756px开始==================*/
+@media screen and (max-width:756px) {
+	/* main */
+	.main-down-left{width:30%;}
+	.main-down-right{width:57%;}
+}
+/* =================756px结束==================*/
+/* =================600px开始==================*/
+@media screen and (max-width:600px) {
+	/* main */
+	.main-down-img img{width:90%;}
+}
+/* =================600px结束==================*/
+/* =================442px开始==================*/
+@media screen and (max-width:442px) {
+	/* main */
+	.main-down-left{width:30%;}
+	.main-down-right{width:56%;}
+}
+/* =================442px结束==================*/

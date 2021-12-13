@@ -1,0 +1,46 @@
+/* =================公共css开始==================*/
+.warp-footer{width:100%; background:#1F63AC;}
+.warp-footer .footer{width:94%; margin:0 auto;}
+.warp-footer .footer .footer-left{float:left; width:75.6%;}
+.footer-left h2{float:left; display:block; padding-top:98px;}
+.footer-left h2 img{display:block; height:40px;}
+.footer-left .left{float:right; padding-top:61px; display:block; width:70.34%;}
+.footer-left .left .left-top{width:100%; display:flex; flex-wrap:wrap;
+background:url(../img/foot.jpg) repeat-x left bottom;}
+.footer-left .left .left-top p{width:50%; display:block; margin-bottom:20px;
+height:20px; line-height:20px; font-size:14px; color:#fff;}
+.footer-left .left .left-top p img{margin-right:3.1%; height:20px; display:inline-block;}
+.footer-left .left .left-down p{float:left; display:block; color:#fff; font-size:14px;
+height:52px; line-height:52px;}
+.footer-left .left .left-down p a{color:#fff; font-size:14px;}
+.footer-left .left .left-down span{float:right; display:block; color:#fff; font-size:14px;
+height:52px; line-height:52px;}
+.warp-footer .footer .footer-right{float:right; width:18.3%; padding-top:38px;
+background:#3072c6;}
+.footer-right p{width:68.2%; margin:auto; display:block;}
+.footer-right p img{width:100%;}
+.footer-right span{width:100%; display:block; height:32px; line-height:32px;
+font-size:14px; color:#fff; text-align:center;}
+/* =================公共css结束==================*/
+/* =================1050px开始==================*/
+@media screen and (max-width:1050px) {
+	.footer-left h2{float:none; display:block; padding-top:53px;}
+	.footer-left .left{float:none; padding-top:30px; width:100%;}
+	.footer-right{margin-top:30px;}
+}
+/* =================1050px结束==================*/
+/* =================750px开始==================*/
+@media screen and (max-width:750px) {
+	.footer{position:relative;}
+	.footer-left{width:100% !important; float:none !important;}
+	.footer-left .left-top{display:block !important;}
+	.footer-left .left-top p{display:block !important; width:100% !important;}
+	.footer-left .left-down p{float:none !important;}
+	.footer-left .left-down span{float:none !important;}
+	.footer-right{float:none !important; width:100px !important; height:130px; 
+	position:absolute;
+	top:10px; right:10px; margin-top:0; padding:0 !important;} 
+	.footer-right p{width:80px; height:80px; margin-top:20px;}
+	.footer-right p img{width:100%;}
+}
+/* =================750px结束==================*/

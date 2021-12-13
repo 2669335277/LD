@@ -1,0 +1,184 @@
+/* =================公共css开始==================*/
+/* banner */
+.banner .swiper-container{width:100%; overflow:hidden; height:auto; margin-top:80px;}
+.banner .swiper-wrapper{width:100%;}
+.banner .swiper-slide img{width:100%; height:auto;}
+/* 公司简介 */
+.company-profile{width:100%; background:#eee; padding-bottom:70px;}
+.company-profile .profile{overflow:hidden; width:94%; margin:0 auto;}
+.profile-left{float:left; width:40%; padding-top:100px;}
+.profile-left .top{background:url(../img/about-01.png) no-repeat left center; height:100px;
+padding-left:4.25%;}
+.profile-left .top p{font-size:16px; color:#333; display:block;}
+.profile-left .top p span{display:inline-block; padding-top:17px; font-size:24px; color:#1F63AC; 
+margin-right:2.25%;}
+.profile-left .top p:nth-of-type(2){color:#999; height:18px; line-height:18px; font-size:16px; 
+text-transform:uppercase;}
+.profile-left .center{margin:28px 0; font-size:18px; line-height:26px; text-indent:2rem;
+height:186px; overflow:hidden;}
+.profile-left .down{width:31.25%; height:40px; line-height:40px;}
+.profile-left .down a{display:block; width:100%; font-size:14px; text-transform:uppercase;
+text-align:center; color:#333; background:url(../img/more-01.png) no-repeat center top;}
+.profile-left .down a:hover{background:url(../img/moreh-02.png) no-repeat center top;
+color:#1F63AC;}
+.profile-right{float:right; width:57.56%; padding-top:40px;}
+.profile-right ul{display:flex;}
+.profile-right ul li{margin-left:1.45%; transition:height 0.5s; width:32%;
+-webkit-transition:height 0.5s; height:440px; position:relative;}
+.profile-right ul li a{display:block; height:410px; position:absolute; left:0; bottom:0;}
+.profile-right ul li a img{width:100%;}
+.profile-right ul li:hover{height:420px;}
+/* 集团业绩 */
+.tit{width:100%; margin-bottom:30px;}
+.tit img{height:60px; display:block; margin:0 auto;}
+.croup-performance{width:100%; padding:70px 0;}
+.croup-top{width:100%; margin-bottom:30px;}
+.croup-top img{height:60px; display:block; margin:0 auto;}
+.croup-down{width:94%; margin:0 auto; height:420px; background:url(../img/mask.png) repeat left top;}
+.croup-down .tt1{display:none;}
+.croup-down .tt{display:block; overflow:hidden;}
+.croup-down .tt li{display:block; float:left; width:49.5%; height:420px; overflow:hidden;}
+.croup-down .tt li.act{width:58%; transition:.5s;}
+.croup-down .tt li.on{width:41%; transition:.5s;}
+.croup-down .tt li:nth-child(1){border-right:1px solid #cacaca;}
+.croup-down .tt li a{display:block; position:relative; width:100%; height:420px;}
+.croup-down .tt li a div{padding:0 15.5%; overflow:hidden; position:absolute; left:0; top:0;}
+.croup-down .tt li a h1,.croup-down .tt li a p,.croup-down .tt li a span{display:block; line-height:52px;
+ color:#fff;}
+.croup-down .tt li.on a h1,.croup-down .tt li a h1{font-size:24px; transition:.5s;}
+.croup-down .tt li.on a b,.croup-down .tt li a b{height:53px; display:block; transition:.5s;}
+.croup-down .tt li.on a p,.croup-down .tt li a p{font-size:18px; transition:.5s;}
+.croup-down .tt li.on a span,.croup-down .tt li a span,.croup-down .tt li.act a span{font-size:14px; 
+line-height:20px;}
+.croup-down .tt li.act a h1{font-size:36px; transition:.1s;}
+.croup-down .tt li.act a b{height:106px; transition:.1s;}
+.croup-down .tt li.act a p{font-size:24px; transition:.1s;}
+/* 业务发展 */
+.business-development{width:100%; padding:70px 0; background:#eee;}
+.business-development .business-top{margin-bottom:0px;}
+.business-development .business-down{width:94%; margin:0 auto; height:100%;}
+.business-development .business-down ul{display:block; overflow:hidden; width:100%;}
+.business-development .business-down ul li{float:left; display:block; margin:0 7.5%;
+height:100%; width:18.3%; overflow:hidden; position:relative;}
+.business-development .business-down ul li span{display:block; height:30px;
+transition:height 0.5s;}
+.business-development .business-down ul li a{display:block; height:100%;}
+.business-development .business-down ul li a img{display:block; width:100%;}
+.business-development .business-down ul li:hover span{height:10px;}
+/* 合作伙伴 */
+.cooperative-partner{width:100%; padding:40px 0; background:url(../img/ab03.jpg)
+no-repeat left top; height:100% !important;}
+.cooperative-partner .cooperative-top{margin-bottom:0px;}
+.cooperative-partner .cooperative-down{width:94%; margin:0 auto;}
+.cooperative-partner .cooperative-down ul{display:flex; flex-wrap:wrap;}
+.cooperative-down ul li{width:20%; height:205px; margin:30px 2.5% 0;
+background:url(../img/hb-02.png) no-repeat center center;}
+.cooperative-down ul li a{display:block; width:100%; height:184px; margin:10px 0;
+position:relative;}
+.cooperative-down ul li a div{display:table; width:100%; text-align:center;
+overflow:hidden;}
+.cooperative-down ul li a div span{display:table-cell; width:100%; vertical-align:middle;
+text-align:center; overflow:hidden; height:180px;}
+.cooperative-down ul li a div span img{max-width:54.6%; max-height:120px !important;}
+.cooperative-down ul li a p{width:74%; height:180px; padding-left:26%; display:none;
+text-align:center; position:absolute; top:3px; left:0; overflow:hidden;}
+.cooperative-down ul li a p span{line-height:30px; height:180px;
+display:table-cell; text-align:center; vertical-align:middle; font-size:20px;
+color:#1F63AC; padding-right:33%;}
+.cooperative-down ul li:hover{background:url(../img/hbh-01.png) no-repeat center center;}
+.cooperative-down ul li:hover p{background:url(../img/hb-02.png) no-repeat center center;
+display:table; opacity:0.9;}
+/* =================公共css结束==================*/
+/* =================1250px开始==================*/
+@media screen and (max-width:1250px) {
+	/* 合作伙伴 */
+	.cooperative-down ul li{background:#fff; border-radius:30%;}
+	.cooperative-down ul li:hover{background:#fff; border-radius:30%;}
+	.cooperative-down ul li a{width:100%; margin:0; height:205px;}
+	.cooperative-down ul li a div{width:100%; margin:0; height:205px;}
+	.cooperative-down ul li p{background:#fff; border-radius:30%; display:block;
+	height:205px !important; top:0px !important;}
+	.cooperative-down ul li:hover p{background:#fff;}
+}
+/* =================1250px结束==================*/
+/* =================1050px开始==================*/
+@media screen and (max-width:1050px) {
+	/* 公司简介 */
+	.profile-left{float:none; width:100%;}
+	.profile-left .down{width:100%;}
+	.profile-left .down a{background:url(../img/more-01.png) no-repeat center top;}
+	.profile-left .down a:hover{background:url(../img/moreh-02.png) no-repeat center top;}
+	.profile-right{float:none; width:100%;}
+}
+/* =================1050px结束==================*/
+/* =================930px开始==================*/
+@media screen and (max-width:930px) {
+	/* 合作伙伴 */
+	.cooperative-down ul li{height:150px;}
+	.cooperative-down ul li a{height:150px;}
+	.cooperative-down ul li a div{height:150px;}
+	.cooperative-down ul li a div span{height:150px;}
+	.cooperative-down ul li p{height:150px !important;}
+	.cooperative-down ul li p span{font-size:16px !important; line-height:20px !important;
+	height:150px !important;}
+	.cooperative-down ul li:hover p{height:150px;}
+}
+/* =================930px结束==================*/
+/* =================824px结束==================*/
+@media screen and (max-width:824px) {
+	/* 集团业绩 */
+	.croup-down .tt{display:none;}
+	.croup-down .tt1{display:block; overflow:hidden; height:421px;}
+	.croup-down .tt1 li{height:210px; width:100%;}
+	.croup-down .tt1 li a{height:210px; position:relative; width:100%; display:block;}
+	.croup-down .tt1 li:nth-child(1){border-bottom:1px solid #cacaca;}
+	.croup-down .tt1 li a div{padding:0 15.5%; overflow:hidden; position:absolute; left:0; top:0;}
+	.croup-down .tt1 li a h1,.croup-down .tt1 li a p,.croup-down .tt1 li a span{display:block; 
+	line-height:26px; color:#fff;}
+	.croup-down .tt1 li a h1{font-size:14px;}
+	.croup-down .tt1 li a b{height:27px; display:block;}
+	.croup-down .tt1 li a p{font-size:16px;}
+	.croup-down .tt1 li a span,.croup-down .tt1 li.act1 a span{font-size:14px; line-height:20px;}
+	.croup-down .tt1 li.act1 a h1{font-size:20px; transition:.1s;}
+	.croup-down .tt1 li.act1 a b{height:53px; transition:.1s;}
+	.croup-down .tt1 li.act1 a p{font-size:18px; transition:.1s;}
+/* =================824px结束==================*/
+/* =================700px开始==================*/
+@media screen and (max-width:760px) {
+	/* 合作伙伴 */
+	.cooperative-down ul li{height:90px; margin:30px 2% 0;}
+	.cooperative-down ul li a{height:90px;}
+	.cooperative-down ul li a div{height:90px;}
+	.cooperative-down ul li a div span{height:90px;}
+	.cooperative-down ul li:hover p{display:none;}
+}
+/* =================700px结束==================*/
+/* =================630px开始==================*/
+@media screen and (max-width:630px) {
+	/* 公司简介 */
+	.profile-right ul li{height:330px;}
+	.profile-right ul li a{height:300px;}
+	.profile-right ul li a img{width:100%; height:100%;}
+	.profile-right ul li:hover{height:310px;}
+	/* 业务发展 */
+	.business-development .business-down ul li{margin:0 5.5%; width:21.3%;}
+}
+/* =================630px结束==================*/
+/* =================470px开始==================*/
+@media screen and (max-width:470px) {
+	/* 公司简介 */
+	.profile-left .center{font-size:16px; line-height:24px; text-indent:2rem; height:170px;}
+	.profile-right ul li{height:220px;}
+	.profile-right ul li a{height:200px;}
+	.profile-right ul li a img{width:100%; height:100%;}
+	.profile-right ul li:hover{height:210px;}
+	/* 业务发展 */
+	.business-top img{height:60px; display:block; margin:0 auto; width:90%;}
+}
+/* =================470px结束==================*/
+/* =================400px开始==================*/
+@media screen and (max-width:400px) {
+	.tit{width:100%; margin-bottom:30px;}
+	.tit img{height:60px; display:block; margin:0 auto; width:90%;}
+}
+/* =================400px结束==================*/

@@ -1,0 +1,65 @@
+/* =================公共css开始==================*/
+.none{display:none;}
+.warp-header{width:100%;}
+.warp-header .h-top{height:40px; overflow:hidden; line-height:40px;
+background-color:#1f63ac;}
+.warp-header .h-top ul{width:94%; margin:auto; text-align:right;}
+.warp-header .h-top ul li{display:inline-block;}
+.warp-header .h-top ul li a{font-size:14px; color:#fff; display:inline-block; line-height:40px;}
+.warp-header .h-top ul li span{display:inline-block; color:#fff; margin:0 10px;
+font-size:10px; line-height:40px;}
+.warp-header .h-down{height:80px; width:100%; position:fixed; 
+background:rgba(255,255,255,0.9);}
+.warp-header .h-down .menu{height:80px; margin:auto; width:94%;}
+.warp-header .h-down .logo{height:40px; padding:20px 0; overflow:hidden; float:left;}
+.warp-header .h-down .max-nav{display:flex; float:right; width:65%;}
+.warp-header .h-down .max-nav>li{height:80px; display:block; margin-left:5%; 
+position:relative;} 
+.warp-header .h-down .max-nav>li>a{font-size:14px; display:block; color:#333; height:80px; 
+line-height:80px;}
+.warp-header .h-down .max-nav>li.active>a{color:#1F63AC;}
+.warp-header .h-down .max-nav>li>a.now{color:#1F63AC;}
+.warp-header .h-down .max-nav>li.active>b,.warp-header .h-down .max-nav>li:hover>b{
+	width:100%;}
+.warp-header .h-down .max-nav>li>b{width:0%; height:2px; background:#1F63AC; 
+position:absolute; left:0; bottom:20px; -webkit-transition:width 0.5s;}
+.warp-header .max-nav-min{width:100%; background-color:rgba(255,255,255,0.9); height:66px;
+overflow-y:hidden;}
+.warp-header .max-nav-min .cont{width:94%; overflow:hidden; margin:auto; padding:15px 0;}
+.warp-header .max-nav-min .cont ul{display:block; width:100%; text-align:center;
+height:66px;}
+.warp-header .max-nav-min .cont ul li{display:inline-block; margin:0 2%;}
+.warp-header .max-nav-min .cont ul li a{display:block; font-size:16px; line-height:36px; 
+color:#333;}
+.warp-header .max-nav-min .cont ul li:hover a{color:#1F63AC;}
+/* =================公共css结束==================*/
+/* =================1170px开始==================*/
+@media screen and (max-width:1170px) {
+	.none{display:block;}
+	.warp-header .max-nav,.warp-header .max-nav-min{display:none !important;}
+	.warp-header .logo{display:block;}
+	.min-nav{display:block; width:100%; opacity:0; background:#1F63AC; z-index:-1; 
+	position:relative; height:100%;}
+	.min-nav>div{width:100%; background:#1F63AC; position:relative;}
+	.min-nav .btn{width:20%; float:right; display:flex; justify-content:center;
+	background:#1F63AC; position:absolute; right:0; cursor:pointer;}
+	.min-nav .btn p{width:50px; height:50px; position:relative; margin-top:30px;}
+	.min-nav .btn p span{display:block; position:absolute; top:15px; width:50px; 
+	height:5px; background:#fff; transform-origin:center; transform:rotate(45deg);}
+	.min-nav .btn p span:nth-of-type(2){transform:rotate(-45deg);}
+	.min-nav>div>ul{width:100%; float:left; background:#1F63AC; position:absolute;
+	right:-100%; padding-bottom:100px; padding-top:50px; opacity:0.9;}
+	.min-nav>div>ul>li{padding-left:10%; line-height:50px;}
+	.min-nav>div>ul>li>ul{padding-left:5%; display:none;}
+	.min-nav>div>ul>li>ul>li{height:30px; line-height:30px;}
+	.min-nav>div>ul>li>ul>li>a{font-size:20px; color:wheat;}
+	.min-nav>div>ul>li>span{display:inline-block; color:#fff; width:20px; height:30px; 
+	line-height:30px; font-size:25px; font-weight:bold; margin-left:10%; border:1px dashed #fff;
+	border-radius:50%; text-align:center; cursor:pointer;}
+	.min-nav>div>ul>li>a{font-size:20px; color:#fff;}
+	.min-btn{width:30px; height:30px; display:flex; margin-top:20px;
+	flex-wrap:wrap; align-content:space-around; float:right; cursor:pointer;}
+	.min-btn span{display:block; width:100%; height:4px; border-radius:2px; 
+	background:#1F63AC;}
+}
+/* =================1170px结束==================*/
